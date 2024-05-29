@@ -34,7 +34,7 @@ const ExpenseList = () => {
         });
         const balance = rahulPaid - rameshPaid;
         const message = balance === 0
-            ? 'balanced'
+            ? 'Balanced'
             : balance > 0
                 ? `Ramesh should pay Rahul: Rs ${balance}`
                 : `Rahul should pay Ramesh: Rs ${Math.abs(balance)}`;
